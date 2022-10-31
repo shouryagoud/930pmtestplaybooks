@@ -1,0 +1,6 @@
+---
+- name: This Playbook install httpd
+  hosts: all
+  become: true
+  roles: 
+  - setup-apsche-role
